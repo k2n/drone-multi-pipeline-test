@@ -20,4 +20,4 @@
                                      :arch "amd64"}
                           :steps (vec (repeatedly 3 step))}))
 
-(spit ".drone.yml" (string/join "---\n" (repeatedly 3 metadata)))
+(spit ".drone.yml" (string/join "---\n" (repeatedly 32 metadata)))

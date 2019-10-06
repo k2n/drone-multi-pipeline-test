@@ -126,3 +126,1250 @@ steps:
     requests:
       cpu: 0.05
       memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__13
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__14
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__15
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__16
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__17
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__18
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__19
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__20
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__21
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__22
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__23
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__24
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__25
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__26
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__27
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__28
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__29
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__30
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__31
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__32
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__33
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__34
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__35
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__36
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__37
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__38
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__39
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__40
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__41
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__42
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__43
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__44
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__45
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__46
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__47
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__48
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__49
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__50
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__51
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__52
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__53
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__54
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__55
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__56
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__57
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__58
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__59
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__60
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__61
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__62
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__63
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__64
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__65
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__66
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__67
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__68
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__69
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__70
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__71
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__72
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__73
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__74
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__75
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__76
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__77
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__78
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__79
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__80
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__81
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__82
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__83
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__84
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__85
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__86
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__87
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__88
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__89
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__90
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__91
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__92
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__93
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__94
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__95
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__96
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__97
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__98
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__99
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__100
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__101
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__102
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__103
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__104
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__105
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__106
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__107
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__108
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__109
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__110
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__111
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__112
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__113
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__114
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__115
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__116
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__117
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__118
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__119
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__120
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__121
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__122
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__123
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__124
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__125
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__126
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__127
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__128
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
