@@ -1,0 +1,128 @@
+kind: pipeline
+name: drone-pipeline-G__1
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__2
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__3
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__4
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__5
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__6
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__7
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__8
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+---
+kind: pipeline
+name: drone-pipeline-G__9
+platform:
+  arch: amd64
+  os: linux
+steps:
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__10
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__11
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB
+- commands:
+  - clojure -Sforce -Stree
+  image: clojure:tools-deps
+  name: dep-tree-G__12
+  pull: true
+  resources:
+    limits:
+      cpu: 1
+      memory: 2GiB
+    requests:
+      cpu: 0.05
+      memory: 1GiB

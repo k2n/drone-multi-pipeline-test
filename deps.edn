@@ -1,0 +1,2 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        camel-snake-kebab   {:mvn/version "0.4.0"}}}

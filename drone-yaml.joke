@@ -1,0 +1,23 @@
+#!/usr/bin/env joker
+
+(require '[joker.string :as string])
+(require '[joker.yaml :as yaml])
+
+(defn step []
+  {:name (str "dep-tree-" (gensym))
+    :pull true
+    :image "clojure:tools-deps"
+    :resources {:limits {:cpu 1
+                         :memory "2GiB"}
+                :requests {:cpu 0.05
+                           :memory "1GiB"}}
+    :commands ["clojure -Sforce -Stree"]})
+
+(defn metadata []
+  (yaml/write-string {:kind "pipeline"
+                          :name (str "drone-pipeline-" (gensym))
+                          :platform {:os "linux"
+                                     :arch "amd64"}
+                          :steps (vec (repeatedly 3 step))}))
+
+(spit ".drone.yml" (string/join "---\n" (repeatedly 3 metadata)))
