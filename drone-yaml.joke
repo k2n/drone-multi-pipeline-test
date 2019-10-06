@@ -12,7 +12,7 @@
                 :requests {:cpu 0.05
                            :memory "1GiB"}}
     :commands ["clojure -Sforce -Stree"
-               "clojure -e \"(Thread/sleep (rand-int 5000) (throw (ex-info (gensym) {})))\""]})
+               "clojure -e \"(Thread/sleep (rand-int 5000) (throw (ex-info (str (gensym)) {})))\""]})
 
 (defn metadata []
   (yaml/write-string {:kind "pipeline"
