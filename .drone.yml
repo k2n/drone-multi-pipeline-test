@@ -6,6 +6,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__2
   pull: true
@@ -18,6 +19,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__3
   pull: true
@@ -30,6 +32,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__4
   pull: true
@@ -49,6 +52,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__6
   pull: true
@@ -61,6 +65,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__7
   pull: true
@@ -73,6 +78,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__8
   pull: true
@@ -92,6 +98,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__10
   pull: true
@@ -104,6 +111,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__11
   pull: true
@@ -116,6 +124,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__12
   pull: true
@@ -135,6 +144,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__14
   pull: true
@@ -147,6 +157,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__15
   pull: true
@@ -159,6 +170,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__16
   pull: true
@@ -178,6 +190,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__18
   pull: true
@@ -190,6 +203,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__19
   pull: true
@@ -202,6 +216,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__20
   pull: true
@@ -221,6 +236,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__22
   pull: true
@@ -233,6 +249,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__23
   pull: true
@@ -245,6 +262,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__24
   pull: true
@@ -264,6 +282,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__26
   pull: true
@@ -276,6 +295,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__27
   pull: true
@@ -288,6 +308,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__28
   pull: true
@@ -307,6 +328,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__30
   pull: true
@@ -319,6 +341,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__31
   pull: true
@@ -331,6 +354,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__32
   pull: true
@@ -350,6 +374,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__34
   pull: true
@@ -362,6 +387,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__35
   pull: true
@@ -374,6 +400,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__36
   pull: true
@@ -393,6 +420,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__38
   pull: true
@@ -405,6 +433,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__39
   pull: true
@@ -417,6 +446,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__40
   pull: true
@@ -436,6 +466,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__42
   pull: true
@@ -448,6 +479,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__43
   pull: true
@@ -460,6 +492,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__44
   pull: true
@@ -479,6 +512,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__46
   pull: true
@@ -491,6 +525,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__47
   pull: true
@@ -503,6 +538,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__48
   pull: true
@@ -522,6 +558,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__50
   pull: true
@@ -534,6 +571,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__51
   pull: true
@@ -546,6 +584,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__52
   pull: true
@@ -565,6 +604,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__54
   pull: true
@@ -577,6 +617,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__55
   pull: true
@@ -589,6 +630,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__56
   pull: true
@@ -608,6 +650,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__58
   pull: true
@@ -620,6 +663,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__59
   pull: true
@@ -632,6 +676,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__60
   pull: true
@@ -651,6 +696,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__62
   pull: true
@@ -663,6 +709,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__63
   pull: true
@@ -675,6 +722,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__64
   pull: true
@@ -694,6 +742,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__66
   pull: true
@@ -706,6 +755,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__67
   pull: true
@@ -718,6 +768,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__68
   pull: true
@@ -737,6 +788,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__70
   pull: true
@@ -749,6 +801,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__71
   pull: true
@@ -761,6 +814,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__72
   pull: true
@@ -780,6 +834,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__74
   pull: true
@@ -792,6 +847,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__75
   pull: true
@@ -804,6 +860,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__76
   pull: true
@@ -823,6 +880,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__78
   pull: true
@@ -835,6 +893,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__79
   pull: true
@@ -847,6 +906,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__80
   pull: true
@@ -866,6 +926,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__82
   pull: true
@@ -878,6 +939,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__83
   pull: true
@@ -890,6 +952,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__84
   pull: true
@@ -909,6 +972,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__86
   pull: true
@@ -921,6 +985,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__87
   pull: true
@@ -933,6 +998,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__88
   pull: true
@@ -952,6 +1018,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__90
   pull: true
@@ -964,6 +1031,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__91
   pull: true
@@ -976,6 +1044,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__92
   pull: true
@@ -995,6 +1064,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__94
   pull: true
@@ -1007,6 +1077,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__95
   pull: true
@@ -1019,6 +1090,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__96
   pull: true
@@ -1038,6 +1110,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__98
   pull: true
@@ -1050,6 +1123,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__99
   pull: true
@@ -1062,6 +1136,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__100
   pull: true
@@ -1081,6 +1156,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__102
   pull: true
@@ -1093,6 +1169,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__103
   pull: true
@@ -1105,6 +1182,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__104
   pull: true
@@ -1124,6 +1202,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__106
   pull: true
@@ -1136,6 +1215,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__107
   pull: true
@@ -1148,6 +1228,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__108
   pull: true
@@ -1167,6 +1248,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__110
   pull: true
@@ -1179,6 +1261,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__111
   pull: true
@@ -1191,6 +1274,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__112
   pull: true
@@ -1210,6 +1294,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__114
   pull: true
@@ -1222,6 +1307,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__115
   pull: true
@@ -1234,6 +1320,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__116
   pull: true
@@ -1253,6 +1340,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__118
   pull: true
@@ -1265,6 +1353,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__119
   pull: true
@@ -1277,6 +1366,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__120
   pull: true
@@ -1296,6 +1386,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__122
   pull: true
@@ -1308,6 +1399,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__123
   pull: true
@@ -1320,6 +1412,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__124
   pull: true
@@ -1339,6 +1432,7 @@ platform:
 steps:
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__126
   pull: true
@@ -1351,6 +1445,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__127
   pull: true
@@ -1363,6 +1458,7 @@ steps:
       memory: 1GiB
 - commands:
   - clojure -Sforce -Stree
+  - clojure -e "(Thread/sleep (rand-int 5000) (throw (ex-info "dummy-exception" {})))"
   image: clojure:tools-deps
   name: dep-tree-G__128
   pull: true
